@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Power BI Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <script type="text/javascript">
+      function disableBack() { window.history.forward(); }
+      setTimeout("disableBack()", 0);
+      window.onunload = function () { null };
+</script>
+  </head>
+  <body>
+    <div class="logout-btn">
+      <a href="index.html">Logout</a>
+    </div>    
+    <iframe src="https://app.powerbi.com/reportEmbed?reportId=9612ca5c-4c04-47b5-8bcd-bac3921ee4e7&autoAuth=true&ctid=9b5b4d6a-cda6-48bf-b2aa-8010cd880ae6&allowEmbedding=true"></iframe>
+</body>
+</html>
